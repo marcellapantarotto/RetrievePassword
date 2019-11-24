@@ -74,14 +74,6 @@ public class RetrievePassword {
 	private static void retrievePassword(String args[])
 			throws IllegalBlockSizeException, BadPaddingException, FileNotFoundException, IOException,
 			ClassNotFoundException, NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
-		// TODO: this method is still missing.
-		// Here you should retrieve in the second command
-		// line argument (args[1]) the ciphered password as String,
-		// and then convert it to a byte array. The third argument
-		// should be the path to the secret key object (see the
-		// implementation of the generatePassword method).
-		// Considering this, it must be possible to "decrypt" the
-		// password.
 
 		byte[] cipheredPassword = DatatypeConverter.parseHexBinary(args[1]);
 
