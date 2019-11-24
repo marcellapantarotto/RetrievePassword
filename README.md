@@ -8,7 +8,7 @@ For execution, the compilation must have the following arguments:
 ```
 --list
 ```
-> Choose a provider
+Choose a provider
 
 #### 2) To create a generate a Password:
 ```
@@ -18,7 +18,7 @@ Example:
 ```
 --generate-password SUN DSA
 ```
-> Get the ciphered password
+Get the ciphered password
 
 #### 3) To retrieve the Password in plain text:
 ```
